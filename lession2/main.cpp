@@ -3,6 +3,10 @@
 using namespace std;
 using PlayingField = int;
 
+struct polePlayingField {
+    PlayingField mArray[3][3];
+};
+
 int main()
 {
     //1. Объявление и инициализация переменных
